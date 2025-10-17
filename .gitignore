@@ -1,0 +1,136 @@
+# =========================
+#  Python 基础忽略项
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# 忽略 Python 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+
+# =========================
+#  编辑器相关 (VSCode, PyCharm)
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+#  构建、打包、安装文件
+# =========================
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+#  Jupyter / IPython
+# =========================
+.ipynb_checkpoints
+*.ipynb_convert.py
+profile_default/
+ipython_config.py
+
+# =========================
+#  日志 / 临时 / 缓存文件
+# =========================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+.cache/
+.logs/
+logs/
+
+# =========================
+#  测试 / 覆盖率
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.pytest_cache/
+pytestdebug.log
+
+# =========================
+#  数据文件 / 模型文件（可选）
+# =========================
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.onnx
+*.tflite
+*.model
+*.weights
+*.pickle
+*.pkl
+*.joblib
+
+# =========================
+#  临时输出 / 实验结果（可选）
+# =========================
+outputs/
+results/
+runs/
+experiments/
+checkpoints/
+plots/
+figures/
+tmp/
+temp/
+
+# =========================
+#  系统 / IDE / 杂项
+# =========================
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+desktop.ini
+
+# =========================
+#  环境配置 / 安全信息
+# =========================
+*.key
+*.pem
+*.crt
+*.cfg
+*.ini
+*.yaml
+*.yml
+*.toml
+*.json
+*.pkl
+secrets/
+config/
+.env
+.env.*
